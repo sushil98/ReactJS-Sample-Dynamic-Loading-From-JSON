@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #f2f2f3;
+    font-family: 'Segoe UI';
+}
+
+.product-info {
+    width: 590px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    margin: 50px auto;
+}
+
+.user-info {
+    padding: 20px;
+    float: left;
+    width: calc(100% - 40px);
+}
+
+.user-image {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+    .user-image img {
+        width: 50px;
+        border-radius: 40px;
+        border: 1px solid #ddd;
+        padding: 4px;
+        height: 50px;
+    
+    }
+
+.user-details {
+    float: left;
+    width: calc(100% - 200px);
+    padding: 7px 20px;
+    text-align: left;
+}
+
+    .user-details h4 {
+        margin: 0px;
+        color: #13153e;
+        font-weight: 700;
+    }
+
+    .user-details p {
+        margin: 0px;
+        font-size: 14px;
+        padding-top: 5px;
+        color: #757575;
+    }
+
+.trending-button {
+    float: right;
+    padding: 17px 0px;
+}
+
+    .trending-button a {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+        background: #1e5799; /* Old browsers */
+        background: -moz-linear-gradient(top, #f6585c 0%, #f64873 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #f6585c 0%,#f64873 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #f6585c 0%,#f64873 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6585c', endColorstr='#f64873',GradientType=0 ); /* IE6-9 */
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #fff;
+        text-decoration: none;
+        padding: 2px 20px 4px 20px;
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+.clear {
+    clear: both;
+}
+
+.product-info-description {
+    clear: both;
+    padding: 0px 20px 20px;text-align: left;
+}
+
+    .product-info-description h3 {
+        margin: 0px;
+        font-size: 18px;
+        color: #13153e;
+    }
+
+    .product-info-description p {
+        margin: 0px;
+        padding: 10px 0px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+.product-pricing {
+    clear: both;
+    margin: 0px 20px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    float: left;
+    width: calc(100% - 40px);
+}
+
+.product-pricing-info {
+    padding: 0px;
+    float: left;
+    width: 100%;
+}
+
+.product-ss {
+    float: left;
+    width: 200px;
+    margin: 5px 0px 0px 5px;
+}
+
+    .product-ss img {
+        width: 100%;
+        padding: 3px;
+        border: 1px solid #eee;
+        border-radius: 3px;
+    }
+
+.product-price {
+    float: left;
+    width: calc(100% - 250px);
+    padding: 20px 10px 20px 30px;
+    margin: 5px 5px 0px 0px;
+}
+
+    .product-price h4 {
+        margin: 0px;
+        color: #8c8c8c;
+        font-size: 18px;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .product-price p {
+        margin: 0px;
+        font-size: 14px;
+        padding: 5px 0px;
+        color: #c7c7c7;
+    }
+
+        .product-price p a {
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #3bc3e0;
+            text-decoration: none;
+            padding: 1px 20px 3px 20px;
+            display: inline-block;
+            border-radius: 20px;
+            border: 1px solid #3bc3e0;
+            float: right;
+        }
+
+    .product-price h3 {
+        margin: 0px;
+        color: #3bc3e0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+.product-source {
+    float: left;
+    border-top: 1px solid #e8e8e8;
+    width: 100%;
+    background: #f4f4f6;
+}
+
+    .product-source ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        font-size: 14px;
+    }
+
+        .product-source ul li {
+            display: inline;
+            text-align: center;
+        }
+
+            .product-source ul li a {
+                color: #b9b9c3;
+                text-decoration: none;
+                padding: 12px 15px;
+                display: inline-block;
+            }
+
+            .product-source ul li.claim-button {
+                float: right;
+            }
+
+                .product-source ul li.claim-button a {
+                    background: #3bc3e0;
+                    color: #fff;
+                    padding: 12px 30px;
+                }
+
+.comment-section {
+    clear: both;
+    background: #f4f4f6;
+    border-radius: 0px 0px 11px 11px;
+}
+
+    .comment-section ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+        .comment-section ul li {
+            display: inline;
+        }
+
+            .comment-section ul li a {
+                color: #aab0be;
+                text-decoration: none;
+                padding: 12px 15px;
+                display: inline-block;
+                font-size: 14px;
+            }
+
+                .comment-section ul li a img {
+                    margin: 2px 6px;
+                    float: left;
+                }
+
+            .comment-section ul li.more-option {
+                float: right;
+            }
+
+.more-button {
+    border: 0px;
+    background: transparent;
+    outline: none;
+    padding: 14px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+    .more-button span {
+        width: 3px;
+        height: 3px;
+        background: #aab0be;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 0px 2px;
+    }
+.filter-btn{
+        padding-top: 15px;
+    }
+.filter-btn button{
+    background: linear-gradient(to bottom, #f6585c 0%,#f64873 100%);
+    color: #fff;
+    border: 0px;
+    padding: 2px 20px 4px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.filter-btn button.active{
+    background: #3bc3e0;
+
+}
+button, a, input{
+    outline: none !important;
+}
+
+.myColor{
+    color:green !important;
+    border: 1px solid  green !important;
+}
